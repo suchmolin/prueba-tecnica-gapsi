@@ -94,7 +94,7 @@ function App() {
               </div>
               <div className="w-full px-7 py-3">
                 <p className="w-full text-end text-5xl font-bold text-blue-500 py-3">
-                  <span className="text-gray-600 text-base">price</span>{" "}
+                  <span className="text-gray-600 text-base">Price</span>{" "}
                   {product.price}$
                 </p>
                 <p>{product.name}</p>
