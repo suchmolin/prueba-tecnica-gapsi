@@ -76,7 +76,7 @@ function App() {
 
         <section
           className="w-full overflow-y-scroll flex gap-10 flex-wrap px-4 py-12 justify-center"
-          style={{ height: `calc(100vh - 240px)` }}
+          style={{ height: `calc(100vh - 280px)` }}
         >
           {products.map((product, i) => (
             <div
