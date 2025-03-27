@@ -8,9 +8,9 @@ export default function HeaderGapsi({ resetApp }) {
       </div>
       <button
         onClick={resetApp}
-        className="rounded-full p-2 bg-white cursor-pointer hover:scale-110 duration-300"
+        className="rounded-full p-3 bg-gray-200 cursor-pointer hover:scale-110 duration-300"
       >
-        <TfiReload className="text-xl" />
+        <TfiReload className="text-lg text-blue-500" />
       </button>
     </nav>
   );

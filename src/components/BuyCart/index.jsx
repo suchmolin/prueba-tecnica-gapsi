@@ -10,7 +10,7 @@ export default function BuyCart({ cart, draggingOver, onDrop }) {
         <span className="py-1 px-3 rounded-full bg-blue-100 absolute -top-2 -left-2">
           {cart.length}
         </span>
-        <BiCartDownload className="text-4xl" />
+        <BiCartDownload className="text-4xl text-blue-500" />
       </div>
     </div>
   );
