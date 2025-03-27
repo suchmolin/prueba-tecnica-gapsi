@@ -69,7 +69,7 @@ function App() {
     <>
       <main className="App">
         <HeaderGapsi resetApp={resetApp} />
-        <section className="buscador w-full h-[140px] flex justify-between px-10">
+        <section className="buscador w-full flex flex-col sm:flex-row justify-between px-10 py-5">
           <SearcherCriterio criterio={criterio} setCriterio={setCriterio} />
           <BuyCart cart={cart} draggingOver={draggingOver} onDrop={onDrop} />
         </section>

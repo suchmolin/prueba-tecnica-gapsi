@@ -8,7 +8,7 @@ export default function SearcherCriterio({ setCriterio }) {
   return (
     <form
       onSubmit={(e) => updateCriterio(e)}
-      className="buscador w-6/12 flex flex-col justify-center px-20"
+      className="buscador sm:w-11/12 flex flex-col justify-center px-5 sm:px-20"
     >
       <label htmlFor="searcher">Introduzca la categoria</label>
       <div className="flex gap-2 items-center">

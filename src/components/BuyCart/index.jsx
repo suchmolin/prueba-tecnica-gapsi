@@ -2,7 +2,7 @@ import { BiCartDownload } from "react-icons/bi";
 export default function BuyCart({ cart, draggingOver, onDrop }) {
   return (
     <div
-      className="h-full flex items-center justify-center"
+      className="h-full flex items-center justify-center pt-10 sm:pt-0"
       onDragOver={(e) => draggingOver(e)}
       onDrop={(e) => onDrop(e)}
     >
